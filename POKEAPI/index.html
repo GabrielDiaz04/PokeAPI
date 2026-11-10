@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pokédex</title>
+
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Pokédex</h1>
+        <p>Conoce el mundo Pokémon</p>
+    </header>
+
+    <main>
+
+        <section class="buscador">
+
+            <input
+                type="text"
+                id="busqueda"
+                placeholder="Nombre o número del Pokémon"
+            >
+
+            <button id="btnBuscar">Buscar</button>
+
+        </section>
+
+        <p id="mensaje"></p>
+
+        <section class="pokemon">
+
+            <h2 id="nombrePokemon">Pokémon</h2>
+
+            <img id="imagenPokemon" src="" alt="Pokémon">
+
+            <p>
+                <strong>Número:</strong>
+                <span id="numero">-</span>
+            </p>
+
+            <p>
+                <strong>Tipo:</strong>
+                <span id="tipo">-</span>
+            </p>
+
+            <p>
+                <strong>Descripción:</strong>
+                <span id="descripcion">-</span>
+            </p>
+
+        </section>
+
+        <section class="evoluciones">
+
+            <div class="evolucion">
+
+                <h3>Pre-evolución</h3>
+
+                <img id="imagenPre" src="" alt="Pre-evolución">
+
+                <p id="nombrePre">-</p>
+
+            </div>
+
+            <div class="evolucion">
+
+                <h3>Evolución</h3>
+
+                <img id="imagenEvo" src="" alt="Evolución">
+
+                <p id="nombreEvo">-</p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Proyecto Pokédex | HTML, CSS y JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
